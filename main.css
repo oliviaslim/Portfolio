@@ -1,0 +1,45 @@
+.jumbotron h1 {
+  font-size: 30px;
+}
+
+.jumbotron p {
+  font-size: 15px;
+}
+
+.col-md-4 img {
+  float: right;
+} 
+
+
+.main img {
+  float: left;
+  margin-left: 20px;
+  width: 350px;
+  height: 450px;
+  padding-left: 30px;
+}
+
+.main p {
+  font-size: 15px;
+  text-indent: 20px;
+}
+
+#contact {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  font-size: 25px;
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  font-size: 25px;
+}

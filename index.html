@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Engineering Profile</title>
+  <!--below is the code that links Bootstrap and CSS to the HTML site-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <!--this chunk of code makes the navigation bar function properly in which the word 'active' changes with each link you click on-->
+	<div class="container">
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link active" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="Lim_AboutMe.html">About Me</a>
+      <a class="nav-item nav-link" href="Lim_Resume.html">Resume</a>
+      <a class="nav-item nav-link" href="Lim_Projects.html">Projects</a>
+      <a class="nav-item nav-link" href="Lim_ContactMe.html">Contact Me</a>
+    </nav>
+
+<!--a jumbotron inside of a container is what makes the background a transparent gray-->
+    <div class="jumbotron">
+      <div>
+				<h1>Olivia Lim's Engineering Profile</h1>
+				<p>Growing up in a technologically-driven generation, the possibilities are endless...</p>
+        <!--this link allows readers to quickly navigate to continue reading my about me page-->
+				<p><a href="Lim_AboutMe.html">Continue Reading</a><p/>
+      </div>
+    </div>
+  </div>
+
+<section class="container">
+<div class="container">
+  <!--this alignment only works in a row-->
+  <div class="row">
+  <!--the next four big chunks of code are pretty much the same being that it is necessary for all four cards to look uniform-->
+    <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6><strong>Volunteer Experience</strong></h6>
+        <h3 class="card-title">San Diego Missions Trip</h3>
+        <h4>Summer 2019</h4>
+        <p class="card-text">Served the refugee community down in San Diego for a week.</p>
+        <a href="Lim_Resume.html">Continue Reading</a>
+      </div>
+    </div>
+  <!--putting the image at the end of the previous text div makes it so the image appears on the right side of the card-->
+  <div class="col-md-4">
+    <img src="Images/missions.jpg" class="card-img" alt="Missions">
+  </div>
+    </div>
+    </div>
+
+    <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6><strong>Projects</strong></h6>
+        <h3 class="card-title">Scratch Project</h3>
+        <h4>CSP</h4>
+        <p class="card-text">This project was a pair-programming project. My partner and I put together an interactive story in Scratch.</p>
+        <a href="Lim_Projects.html">Continue Reading</a>
+      </div>
+    </div>
+  <div class="col-md-4">
+    <img src="Images/scratch(2).png" class="card-img" alt="Scratch Project">
+  </div>
+    </div>
+    </div>
+  </div>
+
+<div class="row">
+  <!--we don't want the card image to completely take over the screen so setting a max-width fixes that-->
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6><strong>Work Experience</strong></h6>
+        <h3 class="card-title">Volleyball Coach</h3>
+        <h4>2019-2020</h4>
+        <p class="card-text">At East Bay Volleyball Academy, I coached kids younger than me, sharing my love of the sport with them and being someone they can look up to.</p>
+        <a href="Lim_Resume.html">Continue Reading</a>
+      </div>
+    </div>
+  <div class="col-md-4">
+    <img src="Images/volleyball.jpg" class="card-img" alt="Volleyball">
+  </div>
+  </div>
+  </div>
+  
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <!--in order to bold certain parts of text, you use the strong function-->
+        <h6><strong>Projects</strong></h6>
+        <h3 class="card-title">MIT App Inventor Project</h3>
+        <h4>CSP</h4>
+        <p class="card-text">This project was a pair-programming project. My partner and I created a photobooth app in MIT App Inventor.</p>
+        <a href="Lim_Projects.html">Continue Reading</a>
+      </div>
+    </div>
+  <div class="col-md-4">
+    <img src="Images/app.png" class="card-img" alt="App Inventor Project">
+  </div>
+  </div>
+  </div>
+</div>
+</section>
+  
+  <footer class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-3">
+        <!--when you click on the mail icon, it allows you to send an email to the appropriate email address using whatever platform you have-->
+          <a href='mailto:oliviaslim2002@gmail.com'>
+            <img src="Images/mail(5).png" style='max-width:100px'>
+          </a>
+        </div>
+        <div class="col-3">
+        <!--this anchor takes you directly to my instagram profile page-->
+          <a href='https://www.instagram.com/olimlivia/'>
+            <img src="Images/instagram.png" style='max-width:100px'>
+          </a>
+        </div>
+        <div class="col-5">
+        <!--this anchor feature takes you directly to the dublin high school website (for reference)-->
+          <a href='http://www.dublin.k12.ca.us/dhs'>
+            <img src="Images/DHS2.png" style='max-width:100px' class='float-right'>
+          <!--for this specific image to appear on the right, the class had to be float-right-->
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!--it's important to close every and any function you use, otherwise your code might not work correctly and it can be difficult to identify exactly where a mistake happened-->
+</html>

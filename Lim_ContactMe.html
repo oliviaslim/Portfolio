@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Engineering Profile</title>
+<!--it is necessary to link Bootstrap to every single page so that the entire website looks uniform and not random-->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+<!--i linked CSS to every page still, even though for some of the pages i didn't end up using CSS to change anything stylistically-->
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+	<div class="container">
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="Lim_AboutMe.html">About Me</a>
+      <a class="nav-item nav-link" href="Lim_Resume.html">Resume</a>
+      <a class="nav-item nav-link" href="Lim_Projects.html">Projects</a>
+      <a class="nav-item nav-link active" href="Lim_ContactMe.html">Contact Me</a>
+    </nav>
+  </div>
+
+<section class="jumbotron">
+  <div class="container">
+    <h3><strong><center>Contact Me</center></strong></h3>
+    <h4><center>Olivia Lim</center></h4>
+  </div>
+</section>
+<div class="container" id="contact">
+<!--i wanted to make the contact me page a little more interesting so i added a picture of me and my friends and then figured out how to put text on top of the picture-->
+  <img src="Images/justforfun.jpg" style="width:75%">
+<!--this only works because of the CSS that goes with this HTML code-->
+  <div class="top-left">Dublin, California</div>
+  <div class="top-right">Email: oliviaslim2002@gmail.com</div>
+</div>
+
+    <footer class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <a href='mailto:oliviaslim2002@gmail.com'>
+            <img src="Images/mail(5).png" style='max-width:100px'>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href='https://www.instagram.com/olimlivia/'>
+            <img src="Images/instagram.png" style='max-width:100px'>
+          </a>
+        </div>
+        <div class="col-5">
+          <a href='http://www.dublin.k12.ca.us/dhs'>
+            <img src="Images/DHS2.png" style='max-width:100px' class='float-right'>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
